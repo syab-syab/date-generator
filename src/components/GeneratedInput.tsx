@@ -14,7 +14,7 @@ const CopyBtn = styled.button`
   background-color: #E1AFD1;
   margin-left: 1rem;
   font-size: 2rem;
-    &:hover {
+  &:hover {
     cursor: pointer;
     color: white;
   }
