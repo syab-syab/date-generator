@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/date-generator/static/css/main.bb887869.css",
+    "main.js": "/date-generator/static/js/main.3f9b03fc.js",
+    "static/js/453.ddb9d3de.chunk.js": "/date-generator/static/js/453.ddb9d3de.chunk.js",
+    "index.html": "/date-generator/index.html",
+    "main.bb887869.css.map": "/date-generator/static/css/main.bb887869.css.map",
+    "main.3f9b03fc.js.map": "/date-generator/static/js/main.3f9b03fc.js.map",
+    "453.ddb9d3de.chunk.js.map": "/date-generator/static/js/453.ddb9d3de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb887869.css",
+    "static/js/main.3f9b03fc.js"
+  ]
+}
