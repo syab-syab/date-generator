@@ -7,13 +7,17 @@ const Wrapper = styled.div`
 
 const Input = styled.input`
   background: white;
+  font-size: 2rem;
 `
 
 const CopyBtn = styled.button`
-  color: white;
-  background-color: black;
+  background-color: #E1AFD1;
   margin-left: 1rem;
   font-size: 2rem;
+    &:hover {
+    cursor: pointer;
+    color: white;
+  }
 `
 
 type Props = {

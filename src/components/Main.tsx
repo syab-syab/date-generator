@@ -5,36 +5,25 @@ import styled from 'styled-components'
 const Wrapper = styled.main`
   font-size: 3rem;
   background: #FFE6E6;
+  height:auto;
+  padding: 1rem 0 2rem;
 `
 
 const FormWrapper = styled.div`
-  padding: 1rem;
+  padding: 4rem 0;
+  @media (max-width: 800px) {
+    display: block;
+  }
 `
 
 const InputWrapper = styled.div`
-  display: inline;
-  @media (max-width: 800px) {
-    display: block;
-  }  
+  margin: 1rem 0;
 `
 
-const YInput = styled.input`
+const Input = styled.input`
   background: white;
-  font-size: #FFE6E6;
-`
-
-const MInput = styled.input`
-  background: white;
-  font-size: #FFE6E6;
-`
-
-const DInput = styled.input`
-  background: white;
-  font-size: #FFE6E6;
-`
-
-const GenerateArrow = styled.button`
-  background: #AD88C6;
+  font-size: 2rem;
+  margin-left: 1rem;
 `
 
 const Main = () => {
@@ -69,18 +58,17 @@ const Main = () => {
       <FormWrapper>
         {/* 4桁まで */}
         <InputWrapper>
-          <YInput type='number' value={Number(year)} onChange={onChangeYear} />年
+          <Input type='number' value={Number(year)} onChange={onChangeYear} />年
         </InputWrapper>
         {/* 2桁まで */}
         <InputWrapper>
-          <MInput type='number' value={Number(month)} onChange={onChangeMonth} />月
+          <Input type='number' value={Number(month)} onChange={onChangeMonth} />月
         </InputWrapper>
         {/* 2桁まで */}
         <InputWrapper>
-          <DInput type='number' value={Number(day)} onChange={onChangeDay} />日
+          <Input type='number' value={Number(day)} onChange={onChangeDay} />日
         </InputWrapper>
       </FormWrapper>
-      <GenerateArrow>↓↓↓</GenerateArrow>
       <Generate year={year} month={month} day={day} />
     </Wrapper>
   )

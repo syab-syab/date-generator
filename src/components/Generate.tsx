@@ -12,7 +12,6 @@ const Wrapper = styled.div`
 
 const Item = styled.div`
   display: block;
-  border: green 0.1rem solid;
 `
 
 
